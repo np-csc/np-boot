@@ -22,6 +22,7 @@
         <module>3-cloud/3.2-gateway/np.boots.cloud.gateway.admin</module>
         <module>3-cloud/3.2-gateway/np.boots.cloud.gateway.client.core</module>
         <module>3-cloud/3.2-gateway/np.boots.cloud.gateway.client.http</module>
+        <module>3-cloud/3.2-gateway/soul/np.boots.cloud.gateway.soul.admin</module>
     </modules>
 
 
@@ -68,6 +69,7 @@
         <objenesis.version>2.6</objenesis.version>
         <junit.version>5.5.2</junit.version>
         <jayway.json-path.version>2.4.0</jayway.json-path.version>
+        <okhttp.version>4.8.1</okhttp.version>
         <!--******************* cloud ********************-->
         <soul.version>2.2.0</soul.version>
     </properties>
@@ -305,6 +307,12 @@
                 <groupId>com.jayway.jsonpath</groupId>
                 <artifactId>json-path</artifactId>
                 <version>${jayway.json-path.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.squareup.okhttp3</groupId>
+                <artifactId>okhttp</artifactId>
+                <version>${okhttp.version}</version>
             </dependency>
 
             <!--******************* cloud ********************-->

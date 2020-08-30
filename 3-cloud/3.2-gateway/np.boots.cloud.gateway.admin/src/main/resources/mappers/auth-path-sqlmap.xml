@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="org.dromara.soul.admin.mapper.AuthPathMapper">
-    <resultMap id="BaseResultMap" type="org.dromara.soul.admin.entity.AuthPathDO">
+<mapper namespace="admin.mapper.AuthPathMapper">
+    <resultMap id="BaseResultMap" type="admin.entity.AuthPathDO">
         <id column="id" jdbcType="VARCHAR" property="id"/>
         <result column="auth_id" jdbcType="VARCHAR" property="authId"/>
         <result column="app_name" jdbcType="VARCHAR" property="appName"/>
@@ -31,7 +31,7 @@
     </select>
 
 
-    <insert id="save" parameterType="org.dromara.soul.admin.entity.AuthParamDO">
+    <insert id="save" parameterType="admin.entity.AuthParamDO">
         insert into auth_path
         (id,
         auth_id,
@@ -84,7 +84,7 @@
     </update>
 
 
-    <update id="update" parameterType="org.dromara.soul.admin.entity.AuthParamDO">
+    <update id="update" parameterType="admin.entity.AuthParamDO">
         update auth_path
         set
         path = #{path,jdbcType=VARCHAR},
