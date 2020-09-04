@@ -16,18 +16,18 @@
  *
  */
 
-package admin.controller;
+package org.dromara.soul.admin.controller;
 
 import org.apache.commons.lang3.StringUtils;
-import admin.dto.BatchCommonDTO;
-import admin.dto.PluginDTO;
-import admin.page.CommonPager;
-import admin.page.PageParameter;
-import admin.query.PluginQuery;
-import admin.result.SoulAdminResult;
-import admin.service.PluginService;
-import admin.service.SyncDataService;
-import admin.vo.PluginVO;
+import org.dromara.soul.admin.dto.BatchCommonDTO;
+import org.dromara.soul.admin.dto.PluginDTO;
+import org.dromara.soul.admin.page.CommonPager;
+import org.dromara.soul.admin.page.PageParameter;
+import org.dromara.soul.admin.query.PluginQuery;
+import org.dromara.soul.admin.result.SoulAdminResult;
+import org.dromara.soul.admin.service.PluginService;
+import org.dromara.soul.admin.service.SyncDataService;
+import org.dromara.soul.admin.vo.PluginVO;
 import org.dromara.soul.common.enums.DataEventTypeEnum;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;

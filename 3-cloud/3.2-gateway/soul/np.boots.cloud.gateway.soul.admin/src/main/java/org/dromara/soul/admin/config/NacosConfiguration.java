@@ -16,7 +16,7 @@
  *
  */
 
-package admin.config;
+package org.dromara.soul.admin.config;
 
 import java.util.Properties;
 

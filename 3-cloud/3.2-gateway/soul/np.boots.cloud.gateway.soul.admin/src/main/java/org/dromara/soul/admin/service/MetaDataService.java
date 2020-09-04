@@ -17,12 +17,12 @@
  *
  */
 
-package admin.service;
+package org.dromara.soul.admin.service;
 
-import admin.dto.MetaDataDTO;
-import admin.page.CommonPager;
-import admin.query.MetaDataQuery;
-import admin.vo.MetaDataVO;
+import org.dromara.soul.admin.dto.MetaDataDTO;
+import org.dromara.soul.admin.page.CommonPager;
+import org.dromara.soul.admin.query.MetaDataQuery;
+import org.dromara.soul.admin.vo.MetaDataVO;
 import org.dromara.soul.common.dto.MetaData;
 
 import java.util.List;

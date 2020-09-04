@@ -16,11 +16,11 @@
  *
  */
 
-package admin.mapper;
+package org.dromara.soul.admin.mapper;
 
 import org.apache.ibatis.annotations.Mapper;
-import admin.entity.SelectorDO;
-import admin.query.SelectorQuery;
+import org.dromara.soul.admin.entity.SelectorDO;
+import org.dromara.soul.admin.query.SelectorQuery;
 
 import java.util.List;
 

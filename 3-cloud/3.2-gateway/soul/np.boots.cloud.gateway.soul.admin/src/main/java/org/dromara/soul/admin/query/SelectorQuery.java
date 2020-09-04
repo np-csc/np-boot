@@ -16,12 +16,12 @@
  *
  */
 
-package admin.query;
+package org.dromara.soul.admin.query;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import admin.page.PageParameter;
+import org.dromara.soul.admin.page.PageParameter;
 
 import java.io.Serializable;
 

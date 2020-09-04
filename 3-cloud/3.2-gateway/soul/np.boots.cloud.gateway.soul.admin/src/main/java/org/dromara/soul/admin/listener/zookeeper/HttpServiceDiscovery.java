@@ -17,7 +17,7 @@
  *
  */
 
-package admin.listener.zookeeper;
+package org.dromara.soul.admin.listener.zookeeper;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -27,10 +27,10 @@ import java.util.stream.Collectors;
 import org.I0Itec.zkclient.ZkClient;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
-import admin.entity.SelectorDO;
-import admin.listener.DataChangedEvent;
-import admin.mapper.SelectorMapper;
-import admin.service.SelectorService;
+import org.dromara.soul.admin.entity.SelectorDO;
+import org.dromara.soul.admin.listener.DataChangedEvent;
+import org.dromara.soul.admin.mapper.SelectorMapper;
+import org.dromara.soul.admin.service.SelectorService;
 import org.dromara.soul.common.dto.SelectorData;
 import org.dromara.soul.common.dto.convert.DivideUpstream;
 import org.dromara.soul.common.enums.ConfigGroupEnum;

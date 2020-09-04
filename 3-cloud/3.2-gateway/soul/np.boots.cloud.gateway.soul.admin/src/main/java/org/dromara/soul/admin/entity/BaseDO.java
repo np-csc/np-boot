@@ -16,7 +16,7 @@
  *
  */
 
-package admin.entity;
+package org.dromara.soul.admin.entity;
 
 import lombok.Data;
 

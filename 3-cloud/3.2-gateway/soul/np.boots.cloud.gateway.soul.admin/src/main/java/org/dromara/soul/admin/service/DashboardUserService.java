@@ -16,12 +16,12 @@
  *
  */
 
-package admin.service;
+package org.dromara.soul.admin.service;
 
-import admin.dto.DashboardUserDTO;
-import admin.page.CommonPager;
-import admin.query.DashboardUserQuery;
-import admin.vo.DashboardUserVO;
+import org.dromara.soul.admin.dto.DashboardUserDTO;
+import org.dromara.soul.admin.page.CommonPager;
+import org.dromara.soul.admin.query.DashboardUserQuery;
+import org.dromara.soul.admin.vo.DashboardUserVO;
 
 import java.util.List;
 

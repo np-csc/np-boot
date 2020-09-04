@@ -17,11 +17,11 @@
  *
  */
 
-package admin.transfer;
+package org.dromara.soul.admin.transfer;
 
-import admin.dto.MetaDataDTO;
-import admin.entity.MetaDataDO;
-import admin.vo.MetaDataVO;
+import org.dromara.soul.admin.dto.MetaDataDTO;
+import org.dromara.soul.admin.entity.MetaDataDO;
+import org.dromara.soul.admin.vo.MetaDataVO;
 import org.dromara.soul.common.dto.MetaData;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;

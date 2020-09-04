@@ -1,15 +1,15 @@
-package admin.config;
+package org.dromara.soul.admin.config;
 
-import admin.listener.DataChangedListener;
-import admin.listener.http.HttpLongPollingDataChangedListener;
-import admin.listener.nacos.NacosDataChangedListener;
-import admin.listener.websocket.WebsocketCollector;
-import admin.listener.websocket.WebsocketDataChangedListener;
-import admin.listener.zookeeper.ZookeeperDataChangedListener;
-import admin.listener.zookeeper.ZookeeperDataInit;
-import admin.service.SyncDataService;
 import com.alibaba.nacos.api.config.ConfigService;
 import org.I0Itec.zkclient.ZkClient;
+import org.dromara.soul.admin.listener.DataChangedListener;
+import org.dromara.soul.admin.listener.http.HttpLongPollingDataChangedListener;
+import org.dromara.soul.admin.listener.nacos.NacosDataChangedListener;
+import org.dromara.soul.admin.listener.websocket.WebsocketCollector;
+import org.dromara.soul.admin.listener.websocket.WebsocketDataChangedListener;
+import org.dromara.soul.admin.listener.zookeeper.ZookeeperDataChangedListener;
+import org.dromara.soul.admin.listener.zookeeper.ZookeeperDataInit;
+import org.dromara.soul.admin.service.SyncDataService;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;

@@ -15,8 +15,12 @@
  *   limitations under the License.
  */
 
-package admin.service.init;
+package org.dromara.soul.admin.service.init;
 
+import java.io.Reader;
+import java.nio.charset.StandardCharsets;
+import java.sql.Connection;
+import java.sql.DriverManager;
 import lombok.SneakyThrows;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.ibatis.io.Resources;
@@ -24,16 +28,10 @@ import org.apache.ibatis.jdbc.ScriptRunner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeansException;
-import org.springframework.beans.PropertyValues;
 import org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
 import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Component;
-
-import java.io.Reader;
-import java.nio.charset.StandardCharsets;
-import java.sql.Connection;
-import java.sql.DriverManager;
 
 /**
  * for execute schema sql file.
@@ -46,7 +44,7 @@ public class LocalDataSourceLoader implements InstantiationAwareBeanPostProcesso
     private static final Logger LOGGER = LoggerFactory.getLogger(LocalDataSourceLoader.class);
     
     private static final String SCHEMA_SQL_FILE = "META-INF/schema.sql";
-
+    
     @Override
     public Object postProcessAfterInitialization(@NonNull final Object bean, final String beanName) throws BeansException {
         if (bean instanceof DataSourceProperties) {

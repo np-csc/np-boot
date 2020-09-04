@@ -16,9 +16,9 @@
  *
  */
 
-package admin.controller;
+package org.dromara.soul.admin.controller;
 
-import admin.listener.SoulDomain;
+import org.dromara.soul.admin.listener.SoulDomain;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

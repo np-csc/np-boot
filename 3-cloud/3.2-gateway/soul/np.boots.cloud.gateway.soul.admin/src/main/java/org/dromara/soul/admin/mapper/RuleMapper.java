@@ -16,11 +16,11 @@
  *
  */
 
-package admin.mapper;
+package org.dromara.soul.admin.mapper;
 
 import org.apache.ibatis.annotations.Mapper;
-import admin.entity.RuleDO;
-import admin.query.RuleQuery;
+import org.dromara.soul.admin.entity.RuleDO;
+import org.dromara.soul.admin.query.RuleQuery;
 
 import java.util.List;
 

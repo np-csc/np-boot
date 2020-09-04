@@ -16,7 +16,7 @@
  *
  */
 
-package admin.listener;
+package org.dromara.soul.admin.listener;
 
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.boot.web.context.WebServerInitializedEvent;

@@ -15,13 +15,13 @@
  *   limitations under the License.
  */
 
-package admin.listener.zookeeper;
+package org.dromara.soul.admin.listener.zookeeper;
 
 import java.net.URLEncoder;
 import java.util.List;
 import lombok.SneakyThrows;
 import org.I0Itec.zkclient.ZkClient;
-import admin.listener.DataChangedListener;
+import org.dromara.soul.admin.listener.DataChangedListener;
 import org.dromara.soul.common.constant.ZkPathConstants;
 import org.dromara.soul.common.dto.AppAuthData;
 import org.dromara.soul.common.dto.MetaData;

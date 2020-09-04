@@ -15,14 +15,14 @@
  *   limitations under the License.
  */
 
-package admin.listener;
+package org.dromara.soul.admin.listener;
 
-import admin.service.RuleService;
-import admin.service.SelectorService;
 import org.apache.commons.collections4.CollectionUtils;
-import admin.service.AppAuthService;
-import admin.service.MetaDataService;
-import admin.service.PluginService;
+import org.dromara.soul.admin.service.AppAuthService;
+import org.dromara.soul.admin.service.MetaDataService;
+import org.dromara.soul.admin.service.PluginService;
+import org.dromara.soul.admin.service.RuleService;
+import org.dromara.soul.admin.service.SelectorService;
 import org.dromara.soul.common.dto.AppAuthData;
 import org.dromara.soul.common.dto.ConfigData;
 import org.dromara.soul.common.dto.MetaData;
@@ -94,15 +94,15 @@ public abstract class AbstractDataChangedListener implements DataChangedListener
     public ConfigData<?> fetchConfig(final ConfigGroupEnum groupKey) {
         ConfigDataCache config = CACHE.get(groupKey.name());
         switch (groupKey) {
-            case ConfigGroupEnum.APP_AUTH:
+            case APP_AUTH:
                 return new ConfigData<>(config.getMd5(), config.getLastModifyTime(), appAuthService.listAll());
-            case ConfigGroupEnum.PLUGIN:
+            case PLUGIN:
                 return new ConfigData<>(config.getMd5(), config.getLastModifyTime(), pluginService.listAll());
-            case ConfigGroupEnum.RULE:
+            case RULE:
                 return new ConfigData<>(config.getMd5(), config.getLastModifyTime(), ruleService.listAll());
-            case ConfigGroupEnum.SELECTOR:
+            case SELECTOR:
                 return new ConfigData<>(config.getMd5(), config.getLastModifyTime(), selectorService.listAll());
-            case ConfigGroupEnum.META_DATA:
+            case META_DATA:
                 return new ConfigData<>(config.getMd5(), config.getLastModifyTime(), metaDataService.listAll());
             default:
                 throw new IllegalStateException("Unexpected groupKey: " + groupKey);

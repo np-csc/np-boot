@@ -16,17 +16,17 @@
  *
  */
 
-package admin.service.impl;
+package org.dromara.soul.admin.service.impl;
 
 import org.apache.commons.lang3.StringUtils;
-import admin.dto.DashboardUserDTO;
-import admin.entity.DashboardUserDO;
-import admin.mapper.DashboardUserMapper;
-import admin.page.CommonPager;
-import admin.page.PageParameter;
-import admin.query.DashboardUserQuery;
-import admin.service.DashboardUserService;
-import admin.vo.DashboardUserVO;
+import org.dromara.soul.admin.dto.DashboardUserDTO;
+import org.dromara.soul.admin.entity.DashboardUserDO;
+import org.dromara.soul.admin.mapper.DashboardUserMapper;
+import org.dromara.soul.admin.page.CommonPager;
+import org.dromara.soul.admin.page.PageParameter;
+import org.dromara.soul.admin.query.DashboardUserQuery;
+import org.dromara.soul.admin.service.DashboardUserService;
+import org.dromara.soul.admin.vo.DashboardUserVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -16,12 +16,12 @@
  *
  */
 
-package admin.service;
+package org.dromara.soul.admin.service;
 
-import admin.dto.RuleDTO;
-import admin.page.CommonPager;
-import admin.query.RuleQuery;
-import admin.vo.RuleVO;
+import org.dromara.soul.admin.dto.RuleDTO;
+import org.dromara.soul.admin.page.CommonPager;
+import org.dromara.soul.admin.query.RuleQuery;
+import org.dromara.soul.admin.vo.RuleVO;
 import org.dromara.soul.common.dto.RuleData;
 
 import java.util.List;

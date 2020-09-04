@@ -15,10 +15,10 @@
  *   limitations under the License.
  */
 
-package admin.listener.websocket;
+package org.dromara.soul.admin.listener.websocket;
 
 import java.util.List;
-import admin.listener.DataChangedListener;
+import org.dromara.soul.admin.listener.DataChangedListener;
 import org.dromara.soul.common.dto.AppAuthData;
 import org.dromara.soul.common.dto.MetaData;
 import org.dromara.soul.common.dto.PluginData;

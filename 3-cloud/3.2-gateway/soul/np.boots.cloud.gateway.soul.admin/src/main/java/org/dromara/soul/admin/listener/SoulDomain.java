@@ -16,7 +16,7 @@
  *
  */
 
-package admin.listener;
+package org.dromara.soul.admin.listener;
 
 import lombok.Data;
 

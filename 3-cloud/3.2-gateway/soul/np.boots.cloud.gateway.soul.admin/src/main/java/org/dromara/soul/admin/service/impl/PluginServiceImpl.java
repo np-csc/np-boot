@@ -16,29 +16,29 @@
  *
  */
 
-package admin.service.impl;
+package org.dromara.soul.admin.service.impl;
 
 import org.apache.commons.lang3.StringUtils;
-import admin.dto.PluginDTO;
-import admin.entity.PluginDO;
-import admin.entity.RuleDO;
-import admin.entity.SelectorDO;
-import admin.listener.DataChangedEvent;
-import admin.mapper.PluginMapper;
-import admin.mapper.RuleConditionMapper;
-import admin.mapper.RuleMapper;
-import admin.mapper.SelectorConditionMapper;
-import admin.mapper.SelectorMapper;
-import admin.page.CommonPager;
-import admin.page.PageParameter;
-import admin.query.PluginQuery;
-import admin.query.RuleConditionQuery;
-import admin.query.RuleQuery;
-import admin.query.SelectorConditionQuery;
-import admin.query.SelectorQuery;
-import admin.service.PluginService;
-import admin.transfer.PluginTransfer;
-import admin.vo.PluginVO;
+import org.dromara.soul.admin.dto.PluginDTO;
+import org.dromara.soul.admin.entity.PluginDO;
+import org.dromara.soul.admin.entity.RuleDO;
+import org.dromara.soul.admin.entity.SelectorDO;
+import org.dromara.soul.admin.listener.DataChangedEvent;
+import org.dromara.soul.admin.mapper.PluginMapper;
+import org.dromara.soul.admin.mapper.RuleConditionMapper;
+import org.dromara.soul.admin.mapper.RuleMapper;
+import org.dromara.soul.admin.mapper.SelectorConditionMapper;
+import org.dromara.soul.admin.mapper.SelectorMapper;
+import org.dromara.soul.admin.page.CommonPager;
+import org.dromara.soul.admin.page.PageParameter;
+import org.dromara.soul.admin.query.PluginQuery;
+import org.dromara.soul.admin.query.RuleConditionQuery;
+import org.dromara.soul.admin.query.RuleQuery;
+import org.dromara.soul.admin.query.SelectorConditionQuery;
+import org.dromara.soul.admin.query.SelectorQuery;
+import org.dromara.soul.admin.service.PluginService;
+import org.dromara.soul.admin.transfer.PluginTransfer;
+import org.dromara.soul.admin.vo.PluginVO;
 import org.dromara.soul.common.constant.AdminConstants;
 import org.dromara.soul.common.dto.PluginData;
 import org.dromara.soul.common.enums.ConfigGroupEnum;

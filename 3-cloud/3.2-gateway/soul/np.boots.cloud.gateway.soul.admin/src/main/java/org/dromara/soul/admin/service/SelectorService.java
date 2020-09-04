@@ -16,13 +16,13 @@
  *
  */
 
-package admin.service;
+package org.dromara.soul.admin.service;
 
-import admin.dto.SelectorDTO;
-import admin.entity.SelectorDO;
-import admin.page.CommonPager;
-import admin.query.SelectorQuery;
-import admin.vo.SelectorVO;
+import org.dromara.soul.admin.dto.SelectorDTO;
+import org.dromara.soul.admin.entity.SelectorDO;
+import org.dromara.soul.admin.page.CommonPager;
+import org.dromara.soul.admin.query.SelectorQuery;
+import org.dromara.soul.admin.vo.SelectorVO;
 import org.dromara.soul.common.dto.SelectorData;
 
 import java.util.List;

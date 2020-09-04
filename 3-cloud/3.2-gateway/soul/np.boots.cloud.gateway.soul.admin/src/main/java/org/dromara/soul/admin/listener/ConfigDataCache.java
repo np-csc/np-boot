@@ -15,7 +15,7 @@
  *   limitations under the License.
  */
 
-package admin.listener;
+package org.dromara.soul.admin.listener;
 
 /**
  * Data cache to compare if data has changed.

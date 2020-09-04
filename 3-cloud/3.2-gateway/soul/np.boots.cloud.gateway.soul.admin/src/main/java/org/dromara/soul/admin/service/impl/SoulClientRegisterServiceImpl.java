@@ -15,31 +15,31 @@
  * limitations under the License.
  */
 
-package admin.service.impl;
+package org.dromara.soul.admin.service.impl;
 
 import java.sql.Timestamp;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 import org.apache.commons.lang3.StringUtils;
-import admin.dto.MetaDataDTO;
-import admin.dto.RuleConditionDTO;
-import admin.dto.RuleDTO;
-import admin.dto.SelectorConditionDTO;
-import admin.dto.SelectorDTO;
-import admin.dto.SpringCloudRegisterDTO;
-import admin.dto.SpringMvcRegisterDTO;
-import admin.entity.MetaDataDO;
-import admin.entity.RuleDO;
-import admin.entity.SelectorDO;
-import admin.listener.DataChangedEvent;
-import admin.mapper.MetaDataMapper;
-import admin.mapper.RuleMapper;
-import admin.mapper.SelectorMapper;
-import admin.service.RuleService;
-import admin.service.SelectorService;
-import admin.service.SoulClientRegisterService;
-import admin.transfer.MetaDataTransfer;
+import org.dromara.soul.admin.dto.MetaDataDTO;
+import org.dromara.soul.admin.dto.RuleConditionDTO;
+import org.dromara.soul.admin.dto.RuleDTO;
+import org.dromara.soul.admin.dto.SelectorConditionDTO;
+import org.dromara.soul.admin.dto.SelectorDTO;
+import org.dromara.soul.admin.dto.SpringCloudRegisterDTO;
+import org.dromara.soul.admin.dto.SpringMvcRegisterDTO;
+import org.dromara.soul.admin.entity.MetaDataDO;
+import org.dromara.soul.admin.entity.RuleDO;
+import org.dromara.soul.admin.entity.SelectorDO;
+import org.dromara.soul.admin.listener.DataChangedEvent;
+import org.dromara.soul.admin.mapper.MetaDataMapper;
+import org.dromara.soul.admin.mapper.RuleMapper;
+import org.dromara.soul.admin.mapper.SelectorMapper;
+import org.dromara.soul.admin.service.RuleService;
+import org.dromara.soul.admin.service.SelectorService;
+import org.dromara.soul.admin.service.SoulClientRegisterService;
+import org.dromara.soul.admin.transfer.MetaDataTransfer;
 import org.dromara.soul.common.dto.SelectorData;
 import org.dromara.soul.common.dto.convert.DivideUpstream;
 import org.dromara.soul.common.dto.convert.rule.DivideRuleHandle;

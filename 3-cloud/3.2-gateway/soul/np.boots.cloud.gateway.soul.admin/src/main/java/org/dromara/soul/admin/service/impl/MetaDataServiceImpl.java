@@ -17,7 +17,7 @@
  *
  */
 
-package admin.service.impl;
+package org.dromara.soul.admin.service.impl;
 
 import com.google.common.collect.Lists;
 import java.sql.Timestamp;
@@ -29,16 +29,16 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
-import admin.dto.MetaDataDTO;
-import admin.entity.MetaDataDO;
-import admin.listener.DataChangedEvent;
-import admin.mapper.MetaDataMapper;
-import admin.page.CommonPager;
-import admin.page.PageParameter;
-import admin.query.MetaDataQuery;
-import admin.service.MetaDataService;
-import admin.transfer.MetaDataTransfer;
-import admin.vo.MetaDataVO;
+import org.dromara.soul.admin.dto.MetaDataDTO;
+import org.dromara.soul.admin.entity.MetaDataDO;
+import org.dromara.soul.admin.listener.DataChangedEvent;
+import org.dromara.soul.admin.mapper.MetaDataMapper;
+import org.dromara.soul.admin.page.CommonPager;
+import org.dromara.soul.admin.page.PageParameter;
+import org.dromara.soul.admin.query.MetaDataQuery;
+import org.dromara.soul.admin.service.MetaDataService;
+import org.dromara.soul.admin.transfer.MetaDataTransfer;
+import org.dromara.soul.admin.vo.MetaDataVO;
 import org.dromara.soul.common.constant.AdminConstants;
 import org.dromara.soul.common.dto.MetaData;
 import org.dromara.soul.common.enums.ConfigGroupEnum;

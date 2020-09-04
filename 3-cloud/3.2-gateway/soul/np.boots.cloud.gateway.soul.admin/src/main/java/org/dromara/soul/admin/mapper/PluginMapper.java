@@ -16,11 +16,11 @@
  *
  */
 
-package admin.mapper;
+package org.dromara.soul.admin.mapper;
 
 import org.apache.ibatis.annotations.Mapper;
-import admin.entity.PluginDO;
-import admin.query.PluginQuery;
+import org.dromara.soul.admin.entity.PluginDO;
+import org.dromara.soul.admin.query.PluginQuery;
 
 import java.util.List;
 

@@ -15,7 +15,7 @@
  *   limitations under the License.
  */
 
-package admin.spring;
+package org.dromara.soul.admin.spring;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

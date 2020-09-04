@@ -16,12 +16,12 @@
  *
  */
 
-package admin.vo;
+package org.dromara.soul.admin.vo;
 
-import admin.entity.DashboardUserDO;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.dromara.soul.admin.entity.DashboardUserDO;
 
 import java.io.Serializable;
 import java.time.format.DateTimeFormatter;

@@ -16,12 +16,12 @@
  *
  */
 
-package admin.mapper;
+package org.dromara.soul.admin.mapper;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
-import admin.entity.DashboardUserDO;
-import admin.query.DashboardUserQuery;
+import org.dromara.soul.admin.entity.DashboardUserDO;
+import org.dromara.soul.admin.query.DashboardUserQuery;
 
 import java.util.List;
 

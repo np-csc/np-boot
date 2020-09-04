@@ -16,20 +16,20 @@
  *
  */
 
-package admin.service.sync;
+package org.dromara.soul.admin.service.sync;
 
 import java.util.Collections;
 import java.util.List;
 import org.apache.commons.collections4.CollectionUtils;
-import admin.listener.DataChangedEvent;
-import admin.service.AppAuthService;
-import admin.service.MetaDataService;
-import admin.service.PluginService;
-import admin.service.RuleService;
-import admin.service.SelectorService;
-import admin.service.SyncDataService;
-import admin.transfer.PluginTransfer;
-import admin.vo.PluginVO;
+import org.dromara.soul.admin.listener.DataChangedEvent;
+import org.dromara.soul.admin.service.AppAuthService;
+import org.dromara.soul.admin.service.MetaDataService;
+import org.dromara.soul.admin.service.PluginService;
+import org.dromara.soul.admin.service.RuleService;
+import org.dromara.soul.admin.service.SelectorService;
+import org.dromara.soul.admin.service.SyncDataService;
+import org.dromara.soul.admin.transfer.PluginTransfer;
+import org.dromara.soul.admin.vo.PluginVO;
 import org.dromara.soul.common.dto.PluginData;
 import org.dromara.soul.common.dto.RuleData;
 import org.dromara.soul.common.dto.SelectorData;

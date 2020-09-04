@@ -1,8 +1,8 @@
-package admin.mapper;
+package org.dromara.soul.admin.mapper;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
-import admin.entity.AuthParamDO;
+import org.dromara.soul.admin.entity.AuthParamDO;
 
 import java.util.List;
 

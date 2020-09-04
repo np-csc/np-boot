@@ -15,11 +15,11 @@
  * limitations under the License.
  */
 
-package admin.service;
+package org.dromara.soul.admin.service;
 
-import admin.dto.SpringCloudRegisterDTO;
-import admin.dto.SpringMvcRegisterDTO;
-import admin.dto.MetaDataDTO;
+import org.dromara.soul.admin.dto.SpringCloudRegisterDTO;
+import org.dromara.soul.admin.dto.SpringMvcRegisterDTO;
+import org.dromara.soul.admin.dto.MetaDataDTO;
 
 /**
  * The interface Soul client service.

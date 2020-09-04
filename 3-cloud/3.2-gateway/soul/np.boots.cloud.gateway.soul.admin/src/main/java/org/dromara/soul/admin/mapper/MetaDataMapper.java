@@ -17,12 +17,12 @@
  *
  */
 
-package admin.mapper;
+package org.dromara.soul.admin.mapper;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
-import admin.entity.MetaDataDO;
-import admin.query.MetaDataQuery;
+import org.dromara.soul.admin.entity.MetaDataDO;
+import org.dromara.soul.admin.query.MetaDataQuery;
 
 import java.util.List;
 

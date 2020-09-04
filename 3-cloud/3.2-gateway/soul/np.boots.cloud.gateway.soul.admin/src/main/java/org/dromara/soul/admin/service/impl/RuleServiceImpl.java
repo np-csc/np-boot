@@ -16,28 +16,28 @@
  *
  */
 
-package admin.service.impl;
+package org.dromara.soul.admin.service.impl;
 
 import org.apache.commons.lang3.StringUtils;
-import admin.dto.RuleConditionDTO;
-import admin.dto.RuleDTO;
-import admin.entity.PluginDO;
-import admin.entity.RuleConditionDO;
-import admin.entity.RuleDO;
-import admin.entity.SelectorDO;
-import admin.listener.DataChangedEvent;
-import admin.mapper.PluginMapper;
-import admin.mapper.RuleConditionMapper;
-import admin.mapper.RuleMapper;
-import admin.mapper.SelectorMapper;
-import admin.page.CommonPager;
-import admin.page.PageParameter;
-import admin.query.RuleConditionQuery;
-import admin.query.RuleQuery;
-import admin.service.RuleService;
-import admin.transfer.ConditionTransfer;
-import admin.vo.RuleConditionVO;
-import admin.vo.RuleVO;
+import org.dromara.soul.admin.dto.RuleConditionDTO;
+import org.dromara.soul.admin.dto.RuleDTO;
+import org.dromara.soul.admin.entity.PluginDO;
+import org.dromara.soul.admin.entity.RuleConditionDO;
+import org.dromara.soul.admin.entity.RuleDO;
+import org.dromara.soul.admin.entity.SelectorDO;
+import org.dromara.soul.admin.listener.DataChangedEvent;
+import org.dromara.soul.admin.mapper.PluginMapper;
+import org.dromara.soul.admin.mapper.RuleConditionMapper;
+import org.dromara.soul.admin.mapper.RuleMapper;
+import org.dromara.soul.admin.mapper.SelectorMapper;
+import org.dromara.soul.admin.page.CommonPager;
+import org.dromara.soul.admin.page.PageParameter;
+import org.dromara.soul.admin.query.RuleConditionQuery;
+import org.dromara.soul.admin.query.RuleQuery;
+import org.dromara.soul.admin.service.RuleService;
+import org.dromara.soul.admin.transfer.ConditionTransfer;
+import org.dromara.soul.admin.vo.RuleConditionVO;
+import org.dromara.soul.admin.vo.RuleVO;
 import org.dromara.soul.common.dto.ConditionData;
 import org.dromara.soul.common.dto.RuleData;
 import org.dromara.soul.common.enums.ConfigGroupEnum;

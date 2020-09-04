@@ -17,7 +17,7 @@
  *
  */
 
-package admin.dto;
+package org.dromara.soul.admin.dto;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

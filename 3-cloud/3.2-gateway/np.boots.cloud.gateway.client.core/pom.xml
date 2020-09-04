@@ -12,11 +12,17 @@
 
     <artifactId>np.boots.cloud.gateway.client.core</artifactId>
 
-
     <dependencies>
         <dependency>
-            <groupId>com.alibaba.nacos</groupId>
-            <artifactId>nacos-client</artifactId>
+            <groupId>cn.np</groupId>
+            <artifactId>np.boots.core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.np</groupId>
+            <artifactId>np.boots.cloud.configuration.client</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
+
 </project>

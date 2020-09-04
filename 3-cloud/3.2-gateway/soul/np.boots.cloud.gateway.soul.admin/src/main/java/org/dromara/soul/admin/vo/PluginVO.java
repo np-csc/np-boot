@@ -16,12 +16,12 @@
  *
  */
 
-package admin.vo;
+package org.dromara.soul.admin.vo;
 
-import admin.entity.PluginDO;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.dromara.soul.admin.entity.PluginDO;
 import org.dromara.soul.common.enums.PluginEnum;
 
 import java.io.Serializable;

@@ -15,10 +15,10 @@
  *   limitations under the License.
  */
 
-package admin.listener.zookeeper;
+package org.dromara.soul.admin.listener.zookeeper;
 
 import org.I0Itec.zkclient.ZkClient;
-import admin.service.SyncDataService;
+import org.dromara.soul.admin.service.SyncDataService;
 import org.dromara.soul.common.constant.ZkPathConstants;
 import org.dromara.soul.common.enums.DataEventTypeEnum;
 import org.springframework.boot.CommandLineRunner;

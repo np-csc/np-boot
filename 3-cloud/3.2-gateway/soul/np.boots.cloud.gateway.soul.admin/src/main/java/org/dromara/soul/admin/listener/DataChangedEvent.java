@@ -15,7 +15,7 @@
  *   limitations under the License.
  */
 
-package admin.listener;
+package org.dromara.soul.admin.listener;
 
 import org.dromara.soul.common.enums.ConfigGroupEnum;
 import org.dromara.soul.common.enums.DataEventTypeEnum;

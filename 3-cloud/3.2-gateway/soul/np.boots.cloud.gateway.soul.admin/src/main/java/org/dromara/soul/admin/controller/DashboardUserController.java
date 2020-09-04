@@ -16,15 +16,15 @@
  *
  */
 
-package admin.controller;
+package org.dromara.soul.admin.controller;
 
-import admin.dto.DashboardUserDTO;
-import admin.page.CommonPager;
-import admin.page.PageParameter;
-import admin.query.DashboardUserQuery;
-import admin.result.SoulAdminResult;
-import admin.service.DashboardUserService;
-import admin.vo.DashboardUserVO;
+import org.dromara.soul.admin.dto.DashboardUserDTO;
+import org.dromara.soul.admin.page.CommonPager;
+import org.dromara.soul.admin.page.PageParameter;
+import org.dromara.soul.admin.query.DashboardUserQuery;
+import org.dromara.soul.admin.result.SoulAdminResult;
+import org.dromara.soul.admin.service.DashboardUserService;
+import org.dromara.soul.admin.vo.DashboardUserVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package admin.service.impl;
+package org.dromara.soul.admin.service.impl;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
@@ -28,10 +28,10 @@ import java.util.concurrent.TimeUnit;
 import javax.annotation.PostConstruct;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections4.CollectionUtils;
-import admin.entity.SelectorDO;
-import admin.listener.DataChangedEvent;
-import admin.mapper.SelectorMapper;
-import admin.service.SelectorService;
+import org.dromara.soul.admin.entity.SelectorDO;
+import org.dromara.soul.admin.listener.DataChangedEvent;
+import org.dromara.soul.admin.mapper.SelectorMapper;
+import org.dromara.soul.admin.service.SelectorService;
 import org.dromara.soul.common.concurrent.SoulThreadFactory;
 import org.dromara.soul.common.dto.SelectorData;
 import org.dromara.soul.common.dto.convert.DivideUpstream;

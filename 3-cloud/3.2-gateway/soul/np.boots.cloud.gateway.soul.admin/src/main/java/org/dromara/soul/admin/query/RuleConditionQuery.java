@@ -16,7 +16,7 @@
  *
  */
 
-package admin.query;
+package org.dromara.soul.admin.query;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -16,11 +16,11 @@
  *
  */
 
-package admin.entity;
+package org.dromara.soul.admin.entity;
 
 import lombok.Data;
 import org.apache.commons.lang3.StringUtils;
-import admin.dto.RuleConditionDTO;
+import org.dromara.soul.admin.dto.RuleConditionDTO;
 import org.dromara.soul.common.utils.UUIDUtils;
 
 import java.sql.Timestamp;

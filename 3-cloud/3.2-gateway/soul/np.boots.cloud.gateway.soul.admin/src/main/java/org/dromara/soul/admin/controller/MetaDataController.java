@@ -17,17 +17,17 @@
  *
  */
 
-package admin.controller;
+package org.dromara.soul.admin.controller;
 
 import org.apache.commons.lang3.StringUtils;
-import admin.dto.BatchCommonDTO;
-import admin.dto.MetaDataDTO;
-import admin.page.CommonPager;
-import admin.page.PageParameter;
-import admin.query.MetaDataQuery;
-import admin.result.SoulAdminResult;
-import admin.service.MetaDataService;
-import admin.vo.MetaDataVO;
+import org.dromara.soul.admin.dto.BatchCommonDTO;
+import org.dromara.soul.admin.dto.MetaDataDTO;
+import org.dromara.soul.admin.page.CommonPager;
+import org.dromara.soul.admin.page.PageParameter;
+import org.dromara.soul.admin.query.MetaDataQuery;
+import org.dromara.soul.admin.result.SoulAdminResult;
+import org.dromara.soul.admin.service.MetaDataService;
+import org.dromara.soul.admin.vo.MetaDataVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

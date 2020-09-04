@@ -16,7 +16,7 @@
  *
  */
 
-package admin.service;
+package org.dromara.soul.admin.service;
 
 import org.dromara.soul.common.enums.DataEventTypeEnum;
 

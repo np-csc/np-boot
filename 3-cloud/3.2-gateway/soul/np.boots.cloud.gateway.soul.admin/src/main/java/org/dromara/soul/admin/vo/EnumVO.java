@@ -16,7 +16,7 @@
  *
  */
 
-package admin.vo;
+package org.dromara.soul.admin.vo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

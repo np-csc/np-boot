@@ -17,14 +17,14 @@
  *
  */
 
-package admin.listener.http;
+package org.dromara.soul.admin.listener.http;
 
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
-import admin.listener.AbstractDataChangedListener;
-import admin.listener.ConfigDataCache;
-import admin.result.SoulAdminResult;
+import org.dromara.soul.admin.listener.AbstractDataChangedListener;
+import org.dromara.soul.admin.listener.ConfigDataCache;
+import org.dromara.soul.admin.result.SoulAdminResult;
 import org.dromara.soul.common.concurrent.SoulThreadFactory;
 import org.dromara.soul.common.constant.HttpConstants;
 import org.dromara.soul.common.dto.AppAuthData;

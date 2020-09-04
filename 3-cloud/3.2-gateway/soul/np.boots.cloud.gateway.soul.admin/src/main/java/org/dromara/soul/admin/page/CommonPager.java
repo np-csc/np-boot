@@ -16,7 +16,7 @@
  *
  */
 
-package admin.page;
+package org.dromara.soul.admin.page;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

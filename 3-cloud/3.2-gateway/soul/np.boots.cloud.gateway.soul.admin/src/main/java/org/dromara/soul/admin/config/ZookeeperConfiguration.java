@@ -16,7 +16,7 @@
  *
  */
 
-package admin.config;
+package org.dromara.soul.admin.config;
 
 import org.I0Itec.zkclient.ZkClient;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

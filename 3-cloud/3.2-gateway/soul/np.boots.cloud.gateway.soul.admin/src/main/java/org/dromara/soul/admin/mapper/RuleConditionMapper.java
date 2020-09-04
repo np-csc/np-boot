@@ -16,11 +16,11 @@
  *
  */
 
-package admin.mapper;
+package org.dromara.soul.admin.mapper;
 
 import org.apache.ibatis.annotations.Mapper;
-import admin.entity.RuleConditionDO;
-import admin.query.RuleConditionQuery;
+import org.dromara.soul.admin.entity.RuleConditionDO;
+import org.dromara.soul.admin.query.RuleConditionQuery;
 
 import java.util.List;
 

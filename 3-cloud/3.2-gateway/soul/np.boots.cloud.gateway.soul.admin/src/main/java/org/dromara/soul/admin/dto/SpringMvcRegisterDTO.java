@@ -1,4 +1,4 @@
-package admin.dto;
+package org.dromara.soul.admin.dto;
 
 import lombok.Builder;
 import lombok.Data;

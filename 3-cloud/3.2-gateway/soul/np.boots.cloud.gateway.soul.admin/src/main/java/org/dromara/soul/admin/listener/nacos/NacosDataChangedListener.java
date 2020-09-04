@@ -1,11 +1,11 @@
-package admin.listener.nacos;
+package org.dromara.soul.admin.listener.nacos;
 
 import com.alibaba.nacos.api.config.ConfigService;
 import com.google.common.collect.Maps;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import lombok.SneakyThrows;
-import admin.listener.DataChangedListener;
+import org.dromara.soul.admin.listener.DataChangedListener;
 import org.dromara.soul.common.dto.AppAuthData;
 import org.dromara.soul.common.dto.MetaData;
 import org.dromara.soul.common.dto.PluginData;
@@ -132,11 +132,11 @@ public class NacosDataChangedListener implements DataChangedListener {
     public void onAppAuthChanged(final List<AppAuthData> changed, final DataEventTypeEnum eventType) {
         updateAuthMap(getConfig(AUTH_DATA_ID));
         switch (eventType) {
-            case DataEventTypeEnum.DELETE:
+            case DELETE:
                 changed.forEach(appAuth -> AUTH_MAP.remove(appAuth.getAppKey()));
                 break;
-            case DataEventTypeEnum.REFRESH:
-            case DataEventTypeEnum.MYSELF:
+            case REFRESH:
+            case MYSELF:
                 Set<String> set = new HashSet<>(AUTH_MAP.keySet());
                 changed.forEach(appAuth -> {
                     set.remove(appAuth.getAppKey());
@@ -155,11 +155,11 @@ public class NacosDataChangedListener implements DataChangedListener {
     public void onPluginChanged(final List<PluginData> changed, final DataEventTypeEnum eventType) {
         updatePluginMap(getConfig(PLUGIN_DATA_ID));
         switch (eventType) {
-            case DataEventTypeEnum.DELETE:
+            case DELETE:
                 changed.forEach(plugin -> PLUGIN_MAP.remove(plugin.getName()));
                 break;
-            case DataEventTypeEnum.REFRESH:
-            case DataEventTypeEnum.MYSELF:
+            case REFRESH:
+            case MYSELF:
                 Set<String> set = new HashSet<>(PLUGIN_MAP.keySet());
                 changed.forEach(plugin -> {
                     set.remove(plugin.getName());
@@ -178,7 +178,7 @@ public class NacosDataChangedListener implements DataChangedListener {
     public void onSelectorChanged(final List<SelectorData> changed, final DataEventTypeEnum eventType) {
         updateSelectorMap(getConfig(SELECTOR_DATA_ID));
         switch (eventType) {
-            case DataEventTypeEnum.DELETE:
+            case DELETE:
                 changed.forEach(selector -> {
                     List<SelectorData> ls = SELECTOR_MAP
                             .getOrDefault(selector.getPluginName(), new ArrayList<>())
@@ -189,8 +189,8 @@ public class NacosDataChangedListener implements DataChangedListener {
                     SELECTOR_MAP.put(selector.getPluginName(), ls);
                 });
                 break;
-            case DataEventTypeEnum.REFRESH:
-            case DataEventTypeEnum.MYSELF:
+            case REFRESH:
+            case MYSELF:
                 Set<String> set = new HashSet<>(SELECTOR_MAP.keySet());
                 changed.forEach(selector -> {
                     set.remove(selector.getPluginName());
@@ -223,11 +223,11 @@ public class NacosDataChangedListener implements DataChangedListener {
     public void onMetaDataChanged(final List<MetaData> changed, final DataEventTypeEnum eventType) {
         updateMetaDataMap(getConfig(META_DATA_ID));
         switch (eventType) {
-            case DataEventTypeEnum.DELETE:
+            case DELETE:
                 changed.forEach(meta -> META_DATA.remove(meta.getPath()));
                 break;
-            case DataEventTypeEnum.REFRESH:
-            case DataEventTypeEnum.MYSELF:
+            case REFRESH:
+            case MYSELF:
                 Set<String> set = new HashSet<>(META_DATA.keySet());
                 changed.forEach(meta -> {
                     set.remove(meta.getPath());
@@ -254,7 +254,7 @@ public class NacosDataChangedListener implements DataChangedListener {
     public void onRuleChanged(final List<RuleData> changed, final DataEventTypeEnum eventType) {
         updateRuleMap(getConfig(RULE_DATA_ID));
         switch (eventType) {
-            case DataEventTypeEnum.DELETE:
+            case DELETE:
                 changed.forEach(rule -> {
                     List<RuleData> ls = RULE_MAP
                             .getOrDefault(rule.getSelectorId(), new ArrayList<>())
@@ -265,8 +265,8 @@ public class NacosDataChangedListener implements DataChangedListener {
                     RULE_MAP.put(rule.getSelectorId(), ls);
                 });
                 break;
-            case DataEventTypeEnum.REFRESH:
-            case DataEventTypeEnum.MYSELF:
+            case REFRESH:
+            case MYSELF:
                 Set<String> set = new HashSet<>(RULE_MAP.keySet());
                 changed.forEach(rule -> {
                     set.remove(rule.getSelectorId());

@@ -16,11 +16,11 @@
  *
  */
 
-package admin.service.impl;
+package org.dromara.soul.admin.service.impl;
 
 import com.google.common.collect.Maps;
-import admin.service.EnumService;
-import admin.vo.EnumVO;
+import org.dromara.soul.admin.service.EnumService;
+import org.dromara.soul.admin.vo.EnumVO;
 import org.dromara.soul.common.enums.HttpMethodEnum;
 import org.dromara.soul.common.enums.LoadBalanceEnum;
 import org.dromara.soul.common.enums.MatchModeEnum;

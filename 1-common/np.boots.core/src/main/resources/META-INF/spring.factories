@@ -1,0 +1,2 @@
+org.springframework.context.ApplicationContextInitializer=cn.np.boots.common.utils.spring.context.NpSpringApplicationContextUtils
+org.springframework.context.ApplicationListener=cn.np.boots.core.spring.auto.core.registrar.NpSpringAfterApplicationStartedRegistrar

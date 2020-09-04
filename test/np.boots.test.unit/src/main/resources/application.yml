@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: application_name
+  main:
+    allow-bean-definition-overriding: true
+#  cloud:
+#    nacos:
+#      config:
+#        server-addr: 127.0.0.1:8848
+#        namespace: np-boots
+#        file-extension: yaml
+#np:
+#  xx:
+#    test:
+#      value: 121121
+nacos:
+  config:
+    server-addr: 127.0.0.1:8848
+    namespace: np-boots

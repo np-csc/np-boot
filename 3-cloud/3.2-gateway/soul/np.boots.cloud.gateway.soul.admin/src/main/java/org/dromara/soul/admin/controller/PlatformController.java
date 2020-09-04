@@ -16,12 +16,12 @@
  *
  */
 
-package admin.controller;
+package org.dromara.soul.admin.controller;
 
-import admin.result.SoulAdminResult;
-import admin.service.DashboardUserService;
-import admin.service.EnumService;
-import admin.vo.DashboardUserVO;
+import org.dromara.soul.admin.result.SoulAdminResult;
+import org.dromara.soul.admin.service.DashboardUserService;
+import org.dromara.soul.admin.service.EnumService;
+import org.dromara.soul.admin.vo.DashboardUserVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

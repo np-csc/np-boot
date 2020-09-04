@@ -17,7 +17,7 @@
  *
  */
 
-package admin.result;
+package org.dromara.soul.admin.result;
 
 import lombok.Data;
 import org.dromara.soul.common.exception.CommonErrorCode;

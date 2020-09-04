@@ -16,9 +16,9 @@
  *
  */
 
-package admin.service;
+package org.dromara.soul.admin.service;
 
-import admin.vo.EnumVO;
+import org.dromara.soul.admin.vo.EnumVO;
 
 import java.util.List;
 import java.util.Map;

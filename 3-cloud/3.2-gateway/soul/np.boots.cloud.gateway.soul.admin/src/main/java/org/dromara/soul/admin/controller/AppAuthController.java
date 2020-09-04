@@ -17,20 +17,20 @@
  *
  */
 
-package admin.controller;
+package org.dromara.soul.admin.controller;
 
 import org.apache.commons.lang3.StringUtils;
-import admin.dto.AppAuthDTO;
-import admin.dto.AuthApplyDTO;
-import admin.dto.AuthPathWarpDTO;
-import admin.dto.BatchCommonDTO;
-import admin.page.CommonPager;
-import admin.page.PageParameter;
-import admin.query.AppAuthQuery;
-import admin.query.AppAuthQueryDTO;
-import admin.result.SoulAdminResult;
-import admin.service.AppAuthService;
-import admin.vo.AppAuthVO;
+import org.dromara.soul.admin.dto.AppAuthDTO;
+import org.dromara.soul.admin.dto.AuthApplyDTO;
+import org.dromara.soul.admin.dto.AuthPathWarpDTO;
+import org.dromara.soul.admin.dto.BatchCommonDTO;
+import org.dromara.soul.admin.page.CommonPager;
+import org.dromara.soul.admin.page.PageParameter;
+import org.dromara.soul.admin.query.AppAuthQuery;
+import org.dromara.soul.admin.query.AppAuthQueryDTO;
+import org.dromara.soul.admin.result.SoulAdminResult;
+import org.dromara.soul.admin.service.AppAuthService;
+import org.dromara.soul.admin.vo.AppAuthVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

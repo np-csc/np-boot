@@ -16,15 +16,15 @@
  *
  */
 
-package admin.controller;
+package org.dromara.soul.admin.controller;
 
-import admin.dto.SelectorDTO;
-import admin.page.CommonPager;
-import admin.page.PageParameter;
-import admin.query.SelectorQuery;
-import admin.result.SoulAdminResult;
-import admin.service.SelectorService;
-import admin.vo.SelectorVO;
+import org.dromara.soul.admin.dto.SelectorDTO;
+import org.dromara.soul.admin.page.CommonPager;
+import org.dromara.soul.admin.page.PageParameter;
+import org.dromara.soul.admin.query.SelectorQuery;
+import org.dromara.soul.admin.result.SoulAdminResult;
+import org.dromara.soul.admin.service.SelectorService;
+import org.dromara.soul.admin.vo.SelectorVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;

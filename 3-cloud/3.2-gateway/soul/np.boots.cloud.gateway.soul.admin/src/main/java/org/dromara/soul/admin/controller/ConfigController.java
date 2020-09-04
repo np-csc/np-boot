@@ -15,12 +15,12 @@
  *   limitations under the License.
  */
 
-package admin.controller;
+package org.dromara.soul.admin.controller;
 
-import admin.listener.http.HttpLongPollingDataChangedListener;
 import com.google.common.collect.Maps;
 import lombok.extern.slf4j.Slf4j;
-import admin.result.SoulAdminResult;
+import org.dromara.soul.admin.listener.http.HttpLongPollingDataChangedListener;
+import org.dromara.soul.admin.result.SoulAdminResult;
 import org.dromara.soul.common.dto.ConfigData;
 import org.dromara.soul.common.enums.ConfigGroupEnum;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;

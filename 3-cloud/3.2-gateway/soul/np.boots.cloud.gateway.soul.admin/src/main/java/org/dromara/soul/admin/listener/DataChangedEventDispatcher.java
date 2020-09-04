@@ -15,7 +15,7 @@
  *   limitations under the License.
  */
 
-package admin.listener;
+package org.dromara.soul.admin.listener;
 
 import org.dromara.soul.common.dto.AppAuthData;
 import org.dromara.soul.common.dto.MetaData;
@@ -54,19 +54,19 @@ public class DataChangedEventDispatcher implements ApplicationListener<DataChang
     public void onApplicationEvent(final DataChangedEvent event) {
         for (DataChangedListener listener : listeners) {
             switch (event.getGroupKey()) {
-                case ConfigGroupEnum.APP_AUTH:
+                case APP_AUTH:
                     listener.onAppAuthChanged((List<AppAuthData>) event.getSource(), event.getEventType());
                     break;
-                case ConfigGroupEnum.PLUGIN:
+                case PLUGIN:
                     listener.onPluginChanged((List<PluginData>) event.getSource(), event.getEventType());
                     break;
-                case ConfigGroupEnum.RULE:
+                case RULE:
                     listener.onRuleChanged((List<RuleData>) event.getSource(), event.getEventType());
                     break;
-                case ConfigGroupEnum.SELECTOR:
+                case SELECTOR:
                     listener.onSelectorChanged((List<SelectorData>) event.getSource(), event.getEventType());
                     break;
-                case ConfigGroupEnum.META_DATA:
+                case META_DATA:
                     listener.onMetaDataChanged((List<MetaData>) event.getSource(), event.getEventType());
                     break;
                 default:

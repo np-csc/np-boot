@@ -16,9 +16,9 @@
  *
  */
 
-package admin.exception;
+package org.dromara.soul.admin.exception;
 
-import admin.result.SoulAdminResult;
+import org.dromara.soul.admin.result.SoulAdminResult;
 import org.dromara.soul.common.exception.SoulException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

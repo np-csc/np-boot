@@ -16,12 +16,12 @@
  *
  */
 
-package admin.service;
+package org.dromara.soul.admin.service;
 
-import admin.dto.PluginDTO;
-import admin.page.CommonPager;
-import admin.query.PluginQuery;
-import admin.vo.PluginVO;
+import org.dromara.soul.admin.dto.PluginDTO;
+import org.dromara.soul.admin.page.CommonPager;
+import org.dromara.soul.admin.query.PluginQuery;
+import org.dromara.soul.admin.vo.PluginVO;
 import org.dromara.soul.common.dto.PluginData;
 
 import java.util.List;

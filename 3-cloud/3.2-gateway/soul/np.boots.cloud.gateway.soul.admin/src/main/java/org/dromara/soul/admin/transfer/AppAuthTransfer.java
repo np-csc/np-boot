@@ -17,11 +17,11 @@
  *
  */
 
-package admin.transfer;
+package org.dromara.soul.admin.transfer;
 
-import admin.dto.AppAuthDTO;
-import admin.entity.AppAuthDO;
-import admin.vo.AppAuthVO;
+import org.dromara.soul.admin.dto.AppAuthDTO;
+import org.dromara.soul.admin.entity.AppAuthDO;
+import org.dromara.soul.admin.vo.AppAuthVO;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

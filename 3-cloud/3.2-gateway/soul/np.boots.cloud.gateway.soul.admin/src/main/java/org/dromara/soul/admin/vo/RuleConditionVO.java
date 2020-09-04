@@ -16,12 +16,12 @@
  *
  */
 
-package admin.vo;
+package org.dromara.soul.admin.vo;
 
-import admin.entity.RuleConditionDO;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.dromara.soul.admin.entity.RuleConditionDO;
 import org.dromara.soul.common.enums.OperatorEnum;
 import org.dromara.soul.common.enums.ParamTypeEnum;
 

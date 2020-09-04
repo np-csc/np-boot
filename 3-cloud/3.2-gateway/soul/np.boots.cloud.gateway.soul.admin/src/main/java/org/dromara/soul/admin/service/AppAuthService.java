@@ -17,16 +17,16 @@
  *
  */
 
-package admin.service;
+package org.dromara.soul.admin.service;
 
-import admin.dto.AppAuthDTO;
-import admin.dto.AuthApplyDTO;
-import admin.dto.AuthPathWarpDTO;
-import admin.page.CommonPager;
-import admin.query.AppAuthQuery;
-import admin.result.SoulAdminResult;
-import admin.vo.AppAuthVO;
-import admin.vo.AuthPathVO;
+import org.dromara.soul.admin.dto.AppAuthDTO;
+import org.dromara.soul.admin.dto.AuthApplyDTO;
+import org.dromara.soul.admin.dto.AuthPathWarpDTO;
+import org.dromara.soul.admin.page.CommonPager;
+import org.dromara.soul.admin.query.AppAuthQuery;
+import org.dromara.soul.admin.result.SoulAdminResult;
+import org.dromara.soul.admin.vo.AppAuthVO;
+import org.dromara.soul.admin.vo.AuthPathVO;
 import org.dromara.soul.common.dto.AppAuthData;
 
 import java.util.List;

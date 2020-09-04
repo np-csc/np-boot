@@ -16,12 +16,12 @@
  *
  */
 
-package admin.vo;
+package org.dromara.soul.admin.vo;
 
-import admin.entity.SelectorDO;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.dromara.soul.admin.entity.SelectorDO;
 import org.dromara.soul.common.enums.MatchModeEnum;
 import org.dromara.soul.common.enums.SelectorTypeEnum;
 

@@ -15,11 +15,11 @@
  *   limitations under the License.
  */
 
-package admin.listener.websocket;
+package org.dromara.soul.admin.listener.websocket;
 
 import org.apache.commons.lang3.StringUtils;
-import admin.service.SyncDataService;
-import admin.spring.SpringBeanUtils;
+import org.dromara.soul.admin.service.SyncDataService;
+import org.dromara.soul.admin.spring.SpringBeanUtils;
 import org.dromara.soul.common.enums.DataEventTypeEnum;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

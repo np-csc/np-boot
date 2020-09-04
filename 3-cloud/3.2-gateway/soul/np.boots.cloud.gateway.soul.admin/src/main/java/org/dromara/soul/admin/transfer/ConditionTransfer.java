@@ -16,12 +16,12 @@
  *
  */
 
-package admin.transfer;
+package org.dromara.soul.admin.transfer;
 
-import admin.dto.RuleConditionDTO;
-import admin.dto.SelectorConditionDTO;
-import admin.entity.RuleConditionDO;
-import admin.entity.SelectorConditionDO;
+import org.dromara.soul.admin.dto.RuleConditionDTO;
+import org.dromara.soul.admin.dto.SelectorConditionDTO;
+import org.dromara.soul.admin.entity.RuleConditionDO;
+import org.dromara.soul.admin.entity.SelectorConditionDO;
 import org.dromara.soul.common.dto.ConditionData;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;

@@ -17,32 +17,32 @@
  *
  */
 
-package admin.service.impl;
+package org.dromara.soul.admin.service.impl;
 
 import com.google.common.collect.Lists;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
-import admin.dto.AppAuthDTO;
-import admin.dto.AuthApplyDTO;
-import admin.dto.AuthParamDTO;
-import admin.dto.AuthPathDTO;
-import admin.dto.AuthPathWarpDTO;
-import admin.entity.AppAuthDO;
-import admin.entity.AuthParamDO;
-import admin.entity.AuthPathDO;
-import admin.listener.DataChangedEvent;
-import admin.mapper.AppAuthMapper;
-import admin.mapper.AuthParamMapper;
-import admin.mapper.AuthPathMapper;
-import admin.page.CommonPager;
-import admin.page.PageParameter;
-import admin.query.AppAuthQuery;
-import admin.result.SoulAdminResult;
-import admin.service.AppAuthService;
-import admin.transfer.AppAuthTransfer;
-import admin.vo.AppAuthVO;
-import admin.vo.AuthParamVO;
-import admin.vo.AuthPathVO;
+import org.dromara.soul.admin.dto.AppAuthDTO;
+import org.dromara.soul.admin.dto.AuthApplyDTO;
+import org.dromara.soul.admin.dto.AuthParamDTO;
+import org.dromara.soul.admin.dto.AuthPathDTO;
+import org.dromara.soul.admin.dto.AuthPathWarpDTO;
+import org.dromara.soul.admin.entity.AppAuthDO;
+import org.dromara.soul.admin.entity.AuthParamDO;
+import org.dromara.soul.admin.entity.AuthPathDO;
+import org.dromara.soul.admin.listener.DataChangedEvent;
+import org.dromara.soul.admin.mapper.AppAuthMapper;
+import org.dromara.soul.admin.mapper.AuthParamMapper;
+import org.dromara.soul.admin.mapper.AuthPathMapper;
+import org.dromara.soul.admin.page.CommonPager;
+import org.dromara.soul.admin.page.PageParameter;
+import org.dromara.soul.admin.query.AppAuthQuery;
+import org.dromara.soul.admin.result.SoulAdminResult;
+import org.dromara.soul.admin.service.AppAuthService;
+import org.dromara.soul.admin.transfer.AppAuthTransfer;
+import org.dromara.soul.admin.vo.AppAuthVO;
+import org.dromara.soul.admin.vo.AuthParamVO;
+import org.dromara.soul.admin.vo.AuthPathVO;
 import org.dromara.soul.common.constant.AdminConstants;
 import org.dromara.soul.common.dto.AppAuthData;
 import org.dromara.soul.common.dto.AuthParamData;

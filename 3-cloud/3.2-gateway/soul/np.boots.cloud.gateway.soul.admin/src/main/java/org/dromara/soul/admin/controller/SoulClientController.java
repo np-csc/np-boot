@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-package admin.controller;
+package org.dromara.soul.admin.controller;
 
-import admin.dto.SpringCloudRegisterDTO;
-import admin.dto.SpringMvcRegisterDTO;
-import admin.dto.MetaDataDTO;
-import admin.service.SoulClientRegisterService;
+import org.dromara.soul.admin.dto.SpringCloudRegisterDTO;
+import org.dromara.soul.admin.dto.SpringMvcRegisterDTO;
+import org.dromara.soul.admin.dto.MetaDataDTO;
+import org.dromara.soul.admin.service.SoulClientRegisterService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

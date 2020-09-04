@@ -17,12 +17,20 @@
     <modules>
         <module>1-common/np.boots.core</module>
 
-
+        <!--***********************************  Gateway  **************************************-->
         <module>3-cloud/3.2-gateway/np.boots.cloud.gateway.client</module>
-        <module>3-cloud/3.2-gateway/np.boots.cloud.gateway.admin</module>
-        <module>3-cloud/3.2-gateway/np.boots.cloud.gateway.client.core</module>
-        <module>3-cloud/3.2-gateway/np.boots.cloud.gateway.client.http</module>
         <module>3-cloud/3.2-gateway/soul/np.boots.cloud.gateway.soul.admin</module>
+        <module>3-cloud/3.2-gateway/soul/np.boots.cloud.gateway.soul.springmvc</module>
+
+        <module>3-cloud/3.2-gateway/np.boots.cloud.gateway.client.springmvc</module>
+        <module>3-cloud/3.2-gateway/np.boots.cloud.gateway.client.dubbo</module>
+        <module>3-cloud/3.1-configuration/np.boots.cloud.configuration.client</module>
+        <module>3-cloud/3.2-gateway/np.boots.cloud.gateway.client.core</module>
+
+        <module>2-component/2.1-rpc/sofa/np.boots.rpc.sofa</module>
+        <module>2-component/2.1-rpc/np.boots.rpc</module>
+
+        <module>test/np.boots.test.unit</module>
     </modules>
 
 
@@ -48,6 +56,7 @@
         <java.encoding>UTF-8</java.encoding>
 
         <!--******************* base ********************-->
+        <lombok.version>1.16.18</lombok.version>
         <spring.version>5.2.2.RELEASE</spring.version>
         <spring.boot.version>2.2.2.RELEASE</spring.boot.version>
         <jackson.version>2.9.10</jackson.version>
@@ -74,12 +83,32 @@
         <soul.version>2.2.0</soul.version>
     </properties>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.7.0</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <encoding>${java.encoding}</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
     <dependencyManagement>
 
 
         <dependencies>
 
             <!--******************* base ********************-->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-core</artifactId>
@@ -103,6 +132,11 @@
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-expression</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-web</artifactId>
                 <version>${spring.version}</version>
             </dependency>
             <dependency>
