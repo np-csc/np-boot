@@ -36,15 +36,16 @@
 
 
         <module>test/np.boots.test.unit</module>
+        <module>np-boots-infrastructure</module>
+        <module>np-boots-micrcore</module>
+        <module>np-boots-component</module>
+        <module>np-boots-component-cloud</module>
     </modules>
 
 
     <properties>
         <sofa.boot.version>3.4.3</sofa.boot.version>
-
-
         <fuo.version>0.0.1-SNAPSHOT</fuo.version>
-
 
         <junit.version>4.12</junit.version>
         <yaml.version>1.24</yaml.version>
