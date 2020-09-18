@@ -12,4 +12,16 @@
     <artifactId>np.boots.rpc.jvm</artifactId>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>cn.np</groupId>
+            <artifactId>np.boots.core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.np</groupId>
+            <artifactId>np.boots.rpc.core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 </project>

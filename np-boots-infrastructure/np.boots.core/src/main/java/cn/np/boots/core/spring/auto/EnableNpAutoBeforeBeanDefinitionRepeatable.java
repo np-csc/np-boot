@@ -1,6 +1,5 @@
 package cn.np.boots.core.spring.auto;
 
-import cn.np.boots.core.spring.auto.core.NpSpringAutoRegistrar;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;
@@ -9,7 +8,7 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Inherited
 @Documented
-@Import(NpSpringAutoRegistrar.class)
+@Import(NpBootsApplicationLifecycle.class)
 public @interface EnableNpAutoBeforeBeanDefinitionRepeatable {
     EnableNpAutoBeforeBeanDefinition[] value();
 }

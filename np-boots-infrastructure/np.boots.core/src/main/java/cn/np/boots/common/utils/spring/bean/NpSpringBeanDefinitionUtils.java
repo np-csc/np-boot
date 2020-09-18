@@ -1,7 +1,7 @@
 package cn.np.boots.common.utils.spring.bean;
 
 import cn.np.boots.common.utils.NpUtils;
-import cn.np.boots.core.pattern.NpPattern;
+import cn.np.boots.common.pattern.NpPattern;
 import org.springframework.beans.factory.annotation.AnnotatedBeanDefinition;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.support.AbstractBeanDefinition;
@@ -9,7 +9,6 @@ import org.springframework.core.type.AnnotationMetadata;
 import org.springframework.core.type.MethodMetadata;
 import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Component;
-import org.springframework.util.ClassUtils;
 import org.springframework.util.StringUtils;
 
 @Component

@@ -1,6 +1,6 @@
 package cn.np.boots.common.utils.spring.context;
 
-import cn.np.boots.core.pattern.asserts.AssertPattern;
+import cn.np.boots.common.pattern.asserts.AssertPattern;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.context.ApplicationContextInitializer;
 import org.springframework.context.ConfigurableApplicationContext;

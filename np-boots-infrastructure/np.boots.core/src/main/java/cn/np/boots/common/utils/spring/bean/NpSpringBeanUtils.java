@@ -1,7 +1,7 @@
 package cn.np.boots.common.utils.spring.bean;
 
 import cn.np.boots.common.utils.NpUtils;
-import cn.np.boots.core.pattern.asserts.AssertPattern;
+import cn.np.boots.common.pattern.asserts.AssertPattern;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;

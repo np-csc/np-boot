@@ -1,7 +1,6 @@
 package cn.np.boots.core.spring.auto;
 
 import cn.np.boots.core.spring.auto.configurer.NpSpringAutoAfterApplicationStartedConfigurer;
-import cn.np.boots.core.spring.auto.core.NpSpringAutoRegistrar;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;
@@ -11,7 +10,7 @@ import java.lang.annotation.*;
 @Inherited
 @Documented
 @Repeatable(EnableNpAutoAfterApplicationStartedRepeatable.class)
-@Import(NpSpringAutoRegistrar.class)
+@Import(NpBootsApplicationLifecycle.class)
 public @interface EnableNpAutoAfterApplicationStarted {
 
     int order() default 0;
